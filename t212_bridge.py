@@ -39,6 +39,7 @@ WEBHOOK_SECRET = os.environ.get("WEBHOOK_SECRET", "")
 TICKER_MAP = {
     "AAPL": "AAPL_US_EQ",
     "TSLA": "TSLA_US_EQ",
+     "XAUUSD": "SGLN",
     # "VOD":  "VODl_EQ",   # example London-listed ticker
 }
 
