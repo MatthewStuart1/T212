@@ -118,7 +118,7 @@ def health():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))"""
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
 TradingView -> Trading 212 webhook bridge ("the messenger")
 ============================================================
 Listens for TradingView alerts and places orders on Trading 212.
